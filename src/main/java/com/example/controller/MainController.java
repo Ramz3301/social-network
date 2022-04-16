@@ -1,4 +1,4 @@
-package com.example;
+package com.example.controller;
 
 import com.example.entity.Message;
 import com.example.repository.MessageRepository;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
     private MessageRepository messageRepository;
 
